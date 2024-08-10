@@ -34,6 +34,40 @@
     padding: 6px 16px;
     font-weight: bold;
 }
+.tw-followCard-button:hover{
+    /* background: linear-gradient(30deg, #6200ea, #ffeb3b); */
+    background: linear-gradient(45deg, #1942a8, #3f47e7, #d5bab2, #438bdd);
+    background-size: 400% 400%;
+    animation: gradient-animation 1.7s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.tw-Stopfollow-button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+}
+
+.tw-Stopfollow-button:hover{
+    /* background: linear-gradient(30deg, #6200ea, #ffeb3b); */
+    background: linear-gradient(45deg, #d51e43, #ec2525, #d5bab2, #a0252b);
+    background-size: 400% 400%;
+    animation: gradient-animation 1.7s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 
 .App {
     display: flex;
